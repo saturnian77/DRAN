@@ -16,26 +16,26 @@ Deep convolutional neural networks have shown significant improvement in the sin
 
 ## Proposed Method
 
-###Overall Structure
-<p align="center"><img src="figure/structure.png" width="700"></p>
+### Overall Structure
+<p align="center"><img src="figures/structure.png" width="700"></p>
 
 As shown in the figure above, DRAN consists of five main parts: two convolution layers (Conv) at the input and output side each, set of dynamic residual blocks (DRBs), where the DRB is our basic building block, the upsampler, and the DRM. The first Conv performs shallow feature extraction, and the set of DRBs extracts deep features, the upsampler and output-side Conv reconstructs the HR image from the features, and DRM controls feature connections.
 
-###Building Block
-<p align="center"><img src="figure/buildingblock.png" width="350"></p>
+### Building Block
+<p align="center"><img src="figures/buildingblock.png" width="350"></p>
 
 DRB selectively accepts necessary information from preceding DRBs and sends it to the following DRB. This selection of information is controlled by DRM, which decides whole residual paths in the network.
 
 ## Experimental Results
 
-<p align="center"><img src="figure/table.png" width="900"></p>
+<p align="center"><img src="figures/table.png" width="900"></p>
 
 The results are evaluated with the average PSNR (dB) and SSIM on Y channel of YCbCr colorspace.
 <font color="red">Red </font> color denotes the best results and <font color ="blue"> blue </font> denotes the second best.
 
 ## Visualized Results
 
-<p align="center"><img src="figure/visualized.png" width="900"></p>
+<p align="center"><img src="figures/visualized.png" width="900"></p>
 
 ## Guidelines for Codes
 
