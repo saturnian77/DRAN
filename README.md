@@ -6,6 +6,7 @@ Karam Park, Jae Woong Soh, and Nam Ik Cho
 
 This is our project repository for ICPR 2021. Our paper was published in ICPR 2021.
 If you find our work useful in your research or publication, please cite our work:
+
 [1] Park, Karam, Jae Woong Soh, and Nam Ik Cho. "Single Image Super-Resolution with Dynamic Residual Connection." 2020 25th International Conference on Pattern Recognition (ICPR). IEEE, 2021.
 
 ```
